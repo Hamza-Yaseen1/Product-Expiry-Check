@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Expiry Notification</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <h1>Product Expiry Notification</h1>
     <form id="productForm">
-        <label for="productName">Product Name:</label>
-        <input type="text" id="productName" required><br>
-        <label for="serialNumber">Serial Number:</label>
-        <input type="text" id="serialNumber" required><br>
-        <label for="price">Price:</label>
-        <input type="number" id="price" required><br>
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" required><br>
-        <label for="expiryDate">Expiry Date:</label>
-        <input type="date" id="expiryDate" required><br>
-        <button type="submit">Add Product</button>
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" required /><br />
+      <label for="serialNumber">Serial Number:</label>
+      <input type="text" id="serialNumber" required /><br />
+      <label for="price">Price:</label>
+      <input type="number" id="price" required /><br />
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" required /><br />
+      <label for="expiryDate">Expiry Date:</label>
+      <input type="date" id="expiryDate" required /><br />
+      <button type="submit">Add Product</button>
     </form>
 
     <div id="search">
-        <label for="searchInput">Search:</label>
-        <input type="text" id="searchInput">
-        <button id="searchButton">Search</button>
+      <label for="searchInput">Search:</label>
+      <input type="text" id="searchInput" />
+      <button id="searchButton">Search</button>
     </div>
 
     <div id="searchResults"></div>
+    <br />
+    <div class="copyright">&copy; 2023 by Bies</div>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
